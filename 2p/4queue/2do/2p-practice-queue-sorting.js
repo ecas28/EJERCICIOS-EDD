@@ -6,14 +6,7 @@
  * may use code from previous exercises
  *
  * PROBLEM 1
- * Queue implementation (array-based)
- *
- * add
- * property
- *    top=5
- * 
- * methods
- *    isFull()
- *    isEmpty()
+ * Using a array-based implementation
+ * queue-sorting
  *
  */
