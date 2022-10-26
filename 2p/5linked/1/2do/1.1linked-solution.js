@@ -4,7 +4,7 @@ constructor(data) {
       this.data = data
       this.next = null}
 }  
-class LList{
+class LList{//in
 constructor() {
       this.head = null
       this.currentSize = 0
@@ -43,9 +43,7 @@ while (a) { //ciclo
 a = a.next}
   return false
 }//cierre contains
-  
-}
-
+}//fin
 
 let linkedlist = new LList()
 //valores de la linkedlist

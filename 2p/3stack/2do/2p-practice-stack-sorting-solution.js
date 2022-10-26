@@ -2,25 +2,25 @@ console.time("Tiempo")//tiempo inicio
 
 class STACK {
   //operaciones predeterminadas para el stack 
-    constructor() {
-        this.data = []
-    } 
-    push(e) {
-        this.data.push(e)
-        return this.data
-    }
-    pop() {
-        return this.data.pop()
-    }
-    peek() {
-        return this.data[this.data.length - 1]
-    }  
-    print() {
-        console.log(this.data)
-    }
-    size() {
-        return this.data.length
-    } 
+constructor() {
+  this.data = []
+} 
+push(e) {
+  this.data.push(e)
+    return this.data
+}
+pop() {
+  return this.data.pop()
+}
+peek() {
+  return this.data[this.data.length - 1]
+}  
+print() {
+  console.log(this.data)
+}
+size() {
+  return this.data.length
+} 
 }
 
 
@@ -36,15 +36,15 @@ while (a == 0) {//1
   if (stack1.isEmpty == true) {//2
     stack1.push(num)
       pasos++ 
-  }//2          
+}//2          
 else {//3
   if (num <= stack1.peek()) {//4
     peeks1 = stack1.peek()
       stack2.push(peeks1)
-  pasos++
-  stack1.pop()
-  pasos++ 
-  }//4           
+pasos++
+stack1.pop()
+pasos++ 
+}//4           
 else {//5
   stack1.push(num)
     pasos++
@@ -56,11 +56,11 @@ if (stack2.size() > 0) {
   while (stack2.size() > 0) {
     peeks2 = stack2.peek()
       stack1.push(peeks2)
-   pasos++
-   stack2.pop()
-   pasos++
-  }
-  pasos++ 
+pasos++
+stack2.pop()
+pasos++
+}
+pasos++ 
 }  
 }
 

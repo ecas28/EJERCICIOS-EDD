@@ -1,15 +1,15 @@
-export default
+//export default
 //
-// ES6
+// 
 //
-class Node {
-    constructor(d, n = null){
-	this._data=d
-	this._next=n
-    }
+//class Node {
+  //  constructor(d, n = null){
+	//this._data=d
+	//this._next=n
+    //}
   
-    get data(){
-	return this._data
-    }
+    //get data(){
+	//return this._data
+    //}
+//}
 
-}
