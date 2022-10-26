@@ -29,6 +29,7 @@ class Stack {
     else
       return false
   }
+  
   isFull() {
     if (this.data.length === this.top)
       return true
@@ -67,7 +68,7 @@ s.push(5)
 console.log(s.search(1))//aquí se busca el núm
 console.log('size', s.size())
 
-console.log(s.peek())
+//console.log(s.peek())
 s.pop()
 s.pop()
 s.pop()
