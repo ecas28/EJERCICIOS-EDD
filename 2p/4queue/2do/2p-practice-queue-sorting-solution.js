@@ -45,9 +45,9 @@ else{//3
   else{//5
     q2.enqueue(num) 
       pasos++
-        if(q1.size() > 0){//6
-          while(q1.size() > 0){//7
-            f1=q1.front()
+if(q1.size() > 0){//6
+while(q1.size() > 0){//7
+  f1=q1.front()
    q2.enqueue(f1)
    pasos++
    q1.dequeue()
