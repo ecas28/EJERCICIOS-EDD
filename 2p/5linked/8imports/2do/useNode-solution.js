@@ -1,7 +1,7 @@
 //
 //
 //
-import {LinkedList} from '../../../efcm/linked/listasenlazadas.js'
+import LinkedList from '../../../../efcm/linked/listasenlazadas.js'
 
 let list = new LinkedList()
 list.append("a")

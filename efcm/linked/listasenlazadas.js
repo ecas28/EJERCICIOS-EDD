@@ -1,8 +1,6 @@
-class Node {
-  constructor(data) {
-    this.data = data
-    this.next = null }
-}
+export default
+  
+
 class LinkedList {
 constructor() {
     this.head = null
@@ -63,4 +61,9 @@ if(current.data == search){
     }
   return false}
 }
-export {LinkedList}
+class Node {
+  constructor(data) {
+    this.data = data
+    this.next = null }
+}
+//export {LinkedList}
