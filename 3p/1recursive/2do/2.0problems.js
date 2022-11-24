@@ -2,22 +2,6 @@
 // recursively
 //
 
-// 2. power
-// -> b base
-// -> p power
-// <- b*b*...b (p times)
-//
-// call
-// power(2,3) returns 8
-
-// 3. factorial
-// -> n
-// <- 2*3*...*n
-//
-// call
-// factorial(3) returns 6
-
-
 // 1. fibonacci
 // -> n 
 // <- 1,1,2,...,n
@@ -29,11 +13,36 @@ function fibonacci(n){
   return fibonacci(n-2)+fibonacci(n-1)
 }
 
-function power(b,p) {
-  if(p === 1) {
-    return p
-  } else b * power(b, p - 1)
+// 2. power
+// -> b base
+// -> p power
+// <- b*b*...b (p times)
+//
+// call
+// power(2,3) returns 8
+
+function power(r,n) {
+  
+    if (n == 0){
+     return 1
+     }
+     if (n == 1) {//base case
+        return r
+        
+    } else {
+    
+    return  r * power(r, n - 1)
+    
+    }
+
 }
+
+// 3. factorial
+// -> n
+// <- 2*3*...*n
+//
+// call
+// factorial(3) returns 6
 
 function factorial (n) {
    if (n == 0){
@@ -48,6 +57,7 @@ function factorial (n) {
     }
 }
 
-console.log((fibonacci(5))
-console.log((power(8))
-console.factorial((factorial(6))
+//resultados de todo 
+console.log(fibonacci(5))
+console.log(power(8,7))
+console.log(factorial(6))
