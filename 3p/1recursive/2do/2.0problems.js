@@ -23,13 +23,25 @@
 // call
 // factorial(3) returns 6
 
-function fibonacci(n){
+function fib(n){
     if (n < 2){ return n
     }
-  return fibonacci(n - 1) + fibonacci(n - 2)
+  return fib(n - 1) + fib(n - 2)
 }
 function power(b,p) {
   if(p === 1) {
     return p
   } else b * power(b, p - 1)
+}
+function factorial (n) {
+   if (n == 0){
+     return 1
+     }
+     if (n == 1) {//base case
+        return n
+    } else {
+    
+    return  n * factorial( n - 1)
+    
+    }
 }
