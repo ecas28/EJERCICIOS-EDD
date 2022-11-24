@@ -24,3 +24,14 @@
 //
 // call
 // factorial(3) returns 6
+
+function fibonacci(n){
+    if (n < 2){ return n
+    }
+  return fibonacci(n - 1) + fibonacci(n - 2)
+}
+function power(b,p) {
+  if(p === 1) {
+    return p
+  } else b * power(b, p - 1)
+}

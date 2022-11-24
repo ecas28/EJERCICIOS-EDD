@@ -9,4 +9,3 @@ let graph = [
 [5,8,0,1]
 [7,3,1,0]
 ]
-//hecho en clase
