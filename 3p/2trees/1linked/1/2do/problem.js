@@ -1,11 +1,8 @@
-//
 // add two nodes
 // zee your notes
 //
 // then
 // call preorder
-// 
-
 
 function preorder(n){
   if (n!==null){

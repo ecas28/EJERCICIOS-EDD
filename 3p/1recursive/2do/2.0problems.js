@@ -1,8 +1,6 @@
-//
 // SERIES
 // recursively
 //
-
 // 1. fibonacci
 // -> n 
 // <- 1,1,2,...,n

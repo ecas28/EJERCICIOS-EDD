@@ -1,7 +1,5 @@
-//
 // dcomplab exercise
 // complete graph as matrix
-// 
 
 let graph = [
 [0,2,5,7]
