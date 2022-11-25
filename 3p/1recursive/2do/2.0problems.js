@@ -57,7 +57,6 @@ function factorial (n) {
     }
 }
 
-//resultados de todo 
 console.log(fibonacci(5))
-console.log(power(8,7))
-console.log(factorial(6))
+console.log(power(5,6))
+console.log(factorial(3))
